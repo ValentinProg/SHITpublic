@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><input type="text"></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+   <div>
+    <form class="form" id="form">
+      <div class="inputBox">
+        <input type="search" maxlength="10" id="password" placeholder="Your text Dude!" class="input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" >
+        <!-- onkeyup="this.value = this.value.replace(/[^\d]/g,'');" -->
+        <!-- <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-xmark"></i> -->
+        <span id="text"></span>
+        <button type="submit"  class="button" id="button" >Submit</button> 
+      </div>  
+    </form>
+  </div>
+</body>
+</html>
